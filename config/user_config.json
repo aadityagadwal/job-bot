@@ -1,0 +1,53 @@
+{
+  "email": {
+    "enabled": true,
+    "smtp_user": "aadityagadwal03@gmail.com",
+    "smtp_password": "qfpb uije iyrq axrm",
+    "recipient": ["aadityagadwal03@gmail.com", "lokesh.gadwal22@gmail.com"]
+  },
+  "keywords": [
+    "valuation analyst",
+    "financial analyst",
+    "equity research analyst",
+    "market analyst",
+    "investment analyst",
+    "m&a analyst",
+    "corporate finance analyst",
+    "financial planning analyst",
+    "risk analyst",
+    "economic analyst"
+  ],
+  "locations": [
+    "Remote",
+    "New York",
+    "San Francisco",
+    "Chicago",
+    "Los Angeles",
+    "Washington DC",
+    "Boston",
+    "Seattle",
+    "Austin",
+    "Denver",
+    "Atlanta",
+    "Dallas",
+    "Philadelphia",
+    "Miami",
+    "Charlotte",
+    "Houston",
+    "San Diego",
+    "Phoenix",
+    "Orlando",
+    "Minneapolis",
+    "San Jose",
+    "Tampa",
+    "Indianapolis",
+    "Columbus",
+    "Arlington",
+    "Alexandria",
+    "Silver Spring",
+    "Bethesda",
+    "Rockville",
+    "Baltimore"
+  ],
+  "resume_path": "resume/resume.pdf"
+}

@@ -1,0 +1,8 @@
+# requirements.txt
+requests
+beautifulsoup4
+selenium
+lxml
+schedule
+python-dotenv
+smtplib3k

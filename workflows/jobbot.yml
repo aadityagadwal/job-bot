@@ -1,0 +1,29 @@
+# .github/workflows/jobbot.yml
+name: Finance Job Bot Scheduler
+
+on:
+  schedule:
+    - cron: '0 9,18 * * *'  # Twice daily at 9:00 AM and 6:00 PM UTC
+  workflow_dispatch:
+
+jobs:
+  run-job-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: ▶️ Run job bot
+        run: |
+          python main.py
